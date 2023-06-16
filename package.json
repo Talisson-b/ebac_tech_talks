@@ -2,9 +2,10 @@
   "name": "ebactalk",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  
   "scripts": {
-    "dev": "parcel scr/index.html scr/styles/main.scss scr/scripts/main.js",
+    "dev": "parcel  scr/styles/main.scss scr/index.html  scr/scripts/main.js",
+    "build": "parcel build src/index.html" ,
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
